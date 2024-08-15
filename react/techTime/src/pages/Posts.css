@@ -1,0 +1,14 @@
+.posts {
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    padding: 20px;   
+    font-family: Arial, sans-serif;
+    
+}
+@media (max-width: 1300px ) and (min-width: 769px) {
+    .posts{
+      margin-left: 270px; 
+      width: calc(100% - 270px); 
+    transition: all 0.3s ease;
+    }
+  }

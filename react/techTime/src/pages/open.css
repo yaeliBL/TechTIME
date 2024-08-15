@@ -1,0 +1,35 @@
+  * {
+    box-sizing: border-box;
+  } 
+
+.both {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+
+.logoText img, .logoAirplan img {
+  max-width: 100%;
+  height: auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.login, .signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .both {
+      margin-top: 5vh;
+  }
+}
+
